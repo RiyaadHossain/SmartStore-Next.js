@@ -5,7 +5,7 @@ export default function Header({ title }) {
     return (
         <Head>
             <title>{title}</title>
-            <meta name="keywords" content="ninjas" />
+            <meta name="keywords" content="products" />
         </Head>
     )
 }

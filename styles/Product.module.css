@@ -8,3 +8,32 @@
 .single:hover {
   border-left: 8px solid #4979ff;
 }
+
+.container {
+  width: 600px;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.product_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: large;
+  font-weight: 600;
+}
+
+.brand {
+  font-size: smaller;
+  background-color: #4979ff;
+  padding: 2px 8px;
+  color: whitesmoke;
+  border-radius: 15px;
+}
