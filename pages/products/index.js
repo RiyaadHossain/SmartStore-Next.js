@@ -1,3 +1,4 @@
+import Header from '../../components/Header';
 import styles from '../../styles/Product.module.css'
 import Link from 'next/link'
 
@@ -13,6 +14,7 @@ export const getStaticProps = async () => {
 export default function Product({ products }) {
     return (
         <>
+            <Header title='Smart Shop | Products' />
             <div>Product</div>
             {
                 products.map(product => (

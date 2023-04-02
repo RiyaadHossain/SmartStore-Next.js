@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="logo">
-                <Image src="/logo.png" alt="site logo" width={128} height={77} />
+                <Image src="/logo1.png" alt="site logo" width={118} height={67} style={{ objectFit: 'cover' }} />
             </div>
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
