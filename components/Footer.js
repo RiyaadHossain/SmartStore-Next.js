@@ -1,6 +1,9 @@
-
-export default function Footer() {
+const Footer = () => {
     return (
-        <div>Footer</div>
-    )
+        <footer>
+            Copyright {new Date().getFullYear()} Smart Shop
+        </footer>
+    );
 }
+
+export default Footer;
